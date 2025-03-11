@@ -30,14 +30,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: gray;
+    font-size: 18px;
 }
+
+/*button {*/
+/*    background-color: deepskyblue;*/
+/*    color: white;*/
+
+/*    height: 50px;*/
+/*    width: auto;*/
+/*}*/
+
+/*button:hover {*/
+/*    background-color: dodgerblue;*/
+/*}*/
+
+/*input {*/
+/*    height: 45px;*/
+/*    width: auto;*/
+/*    border-color: cyan;*/
+/*}*/
+
+/* Todo de acá es hecho por gpt pq anda bonito {*/
 
 button {
     background-color: deepskyblue;
     color: white;
-
     height: 50px;
     width: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -45,7 +72,16 @@ button:hover {
 }
 
 input {
-    height: 45px;
+    height: 25px;
     width: auto;
-    border-color: cyan;
+    padding: 10px;
+    border: 2px solid cyan;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: deepskyblue;
+    outline: none;
 }
