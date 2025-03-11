@@ -1,0 +1,51 @@
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonGenerar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuponGenerado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 18px;
+}
+
+#contenidoValidacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#mostrarValides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: deepskyblue;
+    color: white;
+
+    height: 50px;
+    width: auto;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
+
+input {
+    height: 45px;
+    width: auto;
+    border-color: cyan;
+}
